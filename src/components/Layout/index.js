@@ -1,13 +1,12 @@
 import { Outlet } from 'react-router-dom'
 import Sidebar from '../Sidebar'
 import './index.scss'
-import 'react-tooltip/dist/react-tooltip.css'
 
 const Layout = () => {
   return (
     <div className="App">
       <Sidebar />
-      <div className="page">
+      <div className="page bg-[#ff8888] dark:bg-[#38313e]">
         {/* <span className="tags top-tags">&lt;bodyh&gt;</span> */}
 
         <Outlet />

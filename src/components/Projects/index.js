@@ -23,7 +23,7 @@ const Projects = () => {
 
   return (
     <>
-      <div className="mx-auto pl-[68px] lg:pl-[88px] min-h-screen container projects-page">
+      <div className="box mx-auto pl-[68px] lg:pl-[88px] min-h-screen container projects-page">
         <div className="text-zone">
           <h1>
             <AnimatedLetters
@@ -33,19 +33,19 @@ const Projects = () => {
             />
           </h1>
           <p>
-            Hi, thanks for stopping by. My completed projects can be found here.
-            There's not much here currently, but I'll be adding more projects in
-            the coming weeks.
+            Hi, thanks for checking out my projects. My completed projects can
+            be found here. There's not much here currently, but I'll be adding
+            more projects in the coming weeks.
           </p>
         </div>
         <div className="py-[15px] pl-[2px] pr-[5px] grid grid-cols-1 gap-12 lg:gap-10 lg:grid-cols-2 justify-items-center">
-          <div className="bg-chosen-gray outline outline-500 outline-chosen-gray rounded-md shadow-card hover:shadow-h-card ease-in-out duration-200 hover:scale-105">
+          <div className="bg-chosen-cream dark:bg-[#D5CCDB] outline outline-500 outline-chosen-cream dark:outline-[#D5CCDB] rounded-md shadow-card hover:shadow-h-card ease-in-out duration-200 hover:scale-105">
             <div className="h-full">
               <div className="relative h-full text-center mb-2">
                 <img
                   src={Photo4}
                   alt="website screenshot"
-                  className="rounded-t-md aspect-2"
+                  className="object-cover rounded-t-md aspect-2"
                 />
                 <div className="text-center font-bold text-[15px] lg:text-[22px]">
                   <h2>Personal Website</h2>
@@ -61,13 +61,13 @@ const Projects = () => {
                     <TippyTooltip />
                   </a>
                 </div>
-                <div className="text-lg leading-relaxed px-3 pb-3">
+                <div className="text-xl leading-relaxed px-3 pb-3">
                   <p>Personal website/portfolio built with React.</p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="bg-chosen-gray outline outline-500 outline-chosen-gray rounded-md shadow-card hover:shadow-h-card ease-in-out duration-200 hover:scale-105">
+          <div className="bg-chosen-cream outline dark:bg-[#D5CCDB] outline-500 outline-chosen-cream dark:outline-[#D5CCDB] rounded-md shadow-card hover:shadow-h-card ease-in-out duration-200 hover:scale-105">
             <div className="h-full">
               <div className="relative h-full text-center mb-2">
                 <img
@@ -89,10 +89,12 @@ const Projects = () => {
                     <TippyTooltip />
                   </a>
                 </div>
-                <div className="text-lg leading-relaxed px-3 pb-3">
+                <div className="text-xl leading-relaxed px-3 pb-3">
                   <p>
                     A mock analysis of the different fares by the types of city
-                    for PyBer. Circle size correlates w/ driver count by city.
+                    for PyBer. Built in Jupyter using Pandas and Matplotlib for
+                    the dataframe & visualization. Circle size correlates w/
+                    driver count by city.
                   </p>
                 </div>
               </div>

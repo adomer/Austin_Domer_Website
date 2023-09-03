@@ -3,11 +3,12 @@ import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faFolder, faUser } from '@fortawesome/free-solid-svg-icons'
 import { SocialIcon } from 'react-social-icons'
+import Switcher from './darkModeSwitcher'
 
 const Sidebar = () => (
-  <div className="tracking-tighter lg:tracking-normal w-[65px] flex flex-col justify-between items-stretch h-screen lg:w-[85px] nav-bar">
-    <div className="text-[13px] lg:text-[18px] flex justify-center py-5 lg:py-10">
-      <nav>
+  <div className="w-[65px] flex flex-col justify-between items-stretch h-screen lg:w-[85px] nav-bar">
+    <div className="min-h-[167.5px] lg:min-h-[251.5px] overflow:auto text-[13px] lg:text-[18px] flex justify-center py-5 lg:py-10">
+      <nav className="">
         <NavLink
           exact="true"
           activeclassname="active"
@@ -34,6 +35,9 @@ const Sidebar = () => (
         </NavLink>
       </nav>
     </div>
+    <div className=" flex justify-center py-5 lg:py-15 mode icon">
+      <Switcher />
+    </div>
     <div className="flex justify-center py-5 lg:py-10 social-icons">
       <ul>
         <li>
@@ -54,20 +58,6 @@ const Sidebar = () => (
           <a target="_blank" rel="noreferrer" href="https://github.com/adomer">
             <SocialIcon
               url="https://github.com/adomer"
-              bgColor="#4d4d4e"
-              style={{ height: 'none', width: 'none' }}
-              className="w-[35px] h-[35px] lg:w-[50px] lg:h-[50px]"
-            />
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://www.twitch.tv/adomey"
-          >
-            <SocialIcon
-              url="https://www.twitch.tv/adomey"
               bgColor="#4d4d4e"
               style={{ height: 'none', width: 'none' }}
               className="w-[35px] h-[35px] lg:w-[50px] lg:h-[50px]"

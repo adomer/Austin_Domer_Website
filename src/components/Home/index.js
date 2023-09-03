@@ -31,6 +31,7 @@ const Home = () => {
     <>
       <div id="box container">
         <Particles
+          className="bg-#ff8888"
           id="tsparticles"
           init={particlesInit}
           loaded={particlesLoaded}
@@ -52,7 +53,10 @@ const Home = () => {
                   index={15}
                 />
               </h1>
-              <h2> Frontend Developer / Analyst </h2>
+              <h2 className="dark:text-[#D5CCDB]">
+                {' '}
+                Frontend Developer / Analyst{' '}
+              </h2>
               {/* <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link> */}

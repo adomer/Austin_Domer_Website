@@ -6,11 +6,11 @@ const homeParticlesOptions = {
   style: {
     position: 'absolute',
   },
-  background: {
-    color: {
-      value: '#ff8888',
-    },
-  },
+  // background: {
+  //   color: {
+  //     value: '#ff8888',
+  //   },
+  // },
   fpsLimit: 120,
   interactivity: {
     events: {
