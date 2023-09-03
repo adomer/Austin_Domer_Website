@@ -1,7 +1,6 @@
 import { useCallback, useState, useEffect } from 'react'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
-import { Loader } from 'react-loaders'
 import Particles from 'react-particles'
 import homeParticlesOptions from './indexParticles.js'
 import { loadSlim } from 'tsparticles-slim'
@@ -61,7 +60,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Loader type="pacman" />
     </>
   )
 }

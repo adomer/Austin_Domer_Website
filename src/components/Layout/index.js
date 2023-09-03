@@ -1,6 +1,7 @@
 import { Outlet } from 'react-router-dom'
 import Sidebar from '../Sidebar'
 import './index.scss'
+import 'react-tooltip/dist/react-tooltip.css'
 
 const Layout = () => {
   return (
