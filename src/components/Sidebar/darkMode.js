@@ -24,4 +24,4 @@ export default function useDarkMode() {
   return [colorTheme, setTheme]
 }
 
-console.log(localStorage.theme)
+// console.log(localStorage.theme)
