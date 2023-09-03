@@ -2,6 +2,9 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import { Loader } from 'react-loaders'
+import TippyTooltip from '../tippy-tooltip/TippyTooltip'
+import Photo4 from '../../assets/images/website_headline.png'
+import Photo5 from '../../assets/images/Pyber2.png'
 
 const projectString = 'Projects'
 
@@ -20,7 +23,7 @@ const Projects = () => {
 
   return (
     <>
-      <div className="box mx-auto pl-[68px] lg:pl-[88px] container projects-page">
+      <div className="mx-auto pl-[68px] lg:pl-[88px] min-h-screen container projects-page">
         <div className="text-zone">
           <h1>
             <AnimatedLetters
@@ -30,9 +33,71 @@ const Projects = () => {
             />
           </h1>
           <p>
-            Hi, my completed projects can be found here. There's not much here
-            currently, but I'll be adding more projects in the coming weeks.
+            Hi, thanks for stopping by. My completed projects can be found here.
+            There's not much here currently, but I'll be adding more projects in
+            the coming weeks.
           </p>
+        </div>
+        <div className="py-[15px] pl-[2px] pr-[5px] grid grid-cols-1 gap-12 lg:gap-10 lg:grid-cols-2 justify-items-center">
+          <div className="bg-chosen-gray outline outline-500 outline-chosen-gray rounded-md shadow-card hover:shadow-h-card ease-in-out duration-200 hover:scale-105">
+            <div className="h-full">
+              <div className="relative h-full text-center mb-2">
+                <img
+                  src={Photo4}
+                  alt="website screenshot"
+                  className="rounded-t-md aspect-2"
+                />
+                <div className="text-center font-bold text-[15px] lg:text-[22px]">
+                  <h2>Personal Website</h2>
+                </div>
+                <div className="flex justify-center data-tippy-content">
+                  <a
+                    id="tooltip"
+                    // className="h-10 active-scale-110 flex translate-all ease-in-out hover:shadow-h-card items-center bg-primary"
+                    href="https://github.com/adomer/Austin_Domer_Website"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <TippyTooltip />
+                  </a>
+                </div>
+                <div className="text-lg leading-relaxed px-3 pb-3">
+                  <p>Personal website/portfolio built with React.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-chosen-gray outline outline-500 outline-chosen-gray rounded-md shadow-card hover:shadow-h-card ease-in-out duration-200 hover:scale-105">
+            <div className="h-full">
+              <div className="relative h-full text-center mb-2">
+                <img
+                  src={Photo5}
+                  alt="Pyber Analysis screenshot"
+                  className="rounded-t-md aspect-2"
+                />
+                <div className="text-center font-bold text-[15px] lg:text-[22px]">
+                  <h2>PyBer Analysis</h2>
+                </div>
+                <div className="flex justify-center data-tippy-content">
+                  <a
+                    id="tooltip"
+                    // className="h-10 active-scale-110 flex translate-all ease-in-out hover:shadow-h-card items-center bg-primary"
+                    href="https://github.com/adomer/PyBer_Analysis/tree/main"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <TippyTooltip />
+                  </a>
+                </div>
+                <div className="text-lg leading-relaxed px-3 pb-3">
+                  <p>
+                    A mock analysis of the different fares by the types of city
+                    for PyBer. Circle size correlates w/ driver count by city.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <Loader type="pacman" />
