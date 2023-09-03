@@ -1,5 +1,15 @@
 import { useState, useEffect } from 'react'
 
+if (
+  localStorage.theme === 'dark' ||
+  (!('theme' in localStorage) &&
+    window.matchMedia('(prefers-color-scheme: dark)').matches)
+) {
+  document.documentElement.classList.add('dark')
+} else {
+  document.documentElement.classList.remove('dark')
+}
+
 export default function useDarkMode() {
   const [theme, setTheme] = useState(localStorage.theme)
   const colorTheme = theme === 'dark' ? 'light' : 'dark'
@@ -13,3 +23,5 @@ export default function useDarkMode() {
 
   return [colorTheme, setTheme]
 }
+
+console.log(localStorage.theme)

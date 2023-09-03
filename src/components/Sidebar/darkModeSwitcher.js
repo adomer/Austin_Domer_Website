@@ -22,6 +22,7 @@ export default function Switcher() {
         size={35}
         moonColor="#4d4d4e"
         sunColor="#fff"
+        aria-label="Dark Mode Toggle"
       />
     </>
   )
