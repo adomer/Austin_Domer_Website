@@ -1,4 +1,5 @@
 import './index.scss'
+import '../tippy-tooltip/tippyTooltip.css'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import { Loader } from 'react-loaders'
@@ -53,12 +54,11 @@ const Projects = () => {
                 <div className="flex justify-center data-tippy-content">
                   <a
                     id="tooltip"
-                    // className="h-10 active-scale-110 flex translate-all ease-in-out hover:shadow-h-card items-center bg-primary"
                     href="https://github.com/adomer/Austin_Domer_Website"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <TippyTooltip />
+                    <TippyTooltip className="tomato" />
                   </a>
                 </div>
                 <div className="text-xl leading-relaxed px-3 pb-3">
@@ -81,7 +81,6 @@ const Projects = () => {
                 <div className="flex justify-center data-tippy-content">
                   <a
                     id="tooltip"
-                    // className="h-10 active-scale-110 flex translate-all ease-in-out hover:shadow-h-card items-center bg-primary"
                     href="https://github.com/adomer/PyBer_Analysis/tree/main"
                     target="_blank"
                     rel="noreferrer"

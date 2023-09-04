@@ -53,13 +53,7 @@ const Home = () => {
                   index={15}
                 />
               </h1>
-              <h2 className="dark:text-[#D5CCDB]">
-                {' '}
-                Frontend Developer / Analyst{' '}
-              </h2>
-              {/* <Link to="/contact" className="flat-button">
-            CONTACT ME
-          </Link> */}
+              <h2 className="dark:text-[#D5CCDB]"> Data Analyst </h2>
             </div>
           </div>
         </div>

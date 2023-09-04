@@ -1,15 +1,15 @@
 import Tippy from '@tippyjs/react'
+import './tippyTooltip.css'
 import 'tippy.js/dist/tippy.css'
+import 'tippy.js/themes/material.css'
 import 'tippy.js/animations/scale.css'
 import GithubLogo from '../../assets/images/github-mark-white.svg'
-
-// tippy('button', {
-//   animation: 'shift-away',
-// })
 
 export default function TippyTooltip() {
   return (
     <Tippy
+      theme="austin"
+      animation="scale"
       placement="right"
       arrow={false}
       delay={100}

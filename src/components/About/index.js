@@ -2,7 +2,6 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import { Loader } from 'react-loaders'
-// import { MapContainer, TileLayer, Marker } from 'react-leaflet'
 import Photo from '../../assets/images/Avatar2-test.jpg'
 import Photo2 from '../../assets/images/Kona2.png'
 import Photo3 from '../../assets/images/Remi.jpg'
@@ -95,19 +94,6 @@ const About = () => {
             alt="black pug"
           />
         </div>
-        {/* <div className="flex flex-wrap info-map">
-          Austin Domer,
-          <br />
-          Santa Barbara, CA
-          <br />
-          <span>austin.domer81@gmail.com</span>
-        </div>
-        <div className="mx-auto flex flex-wrap justify-center map-wrap">
-          <MapContainer center={[34.42246, -119.700942]} zoom={13}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[34.42246, -119.700942]}></Marker>
-          </MapContainer>
-  </div> */}
       </div>
       <Loader type="pacman" />
     </>

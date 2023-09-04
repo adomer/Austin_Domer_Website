@@ -7,15 +7,7 @@ const Layout = () => {
     <div className="App">
       <Sidebar />
       <div className="page bg-[#ff8888] dark:bg-[#38313e]">
-        {/* <span className="tags top-tags">&lt;bodyh&gt;</span> */}
-
         <Outlet />
-
-        {/* <span className="tags bottom-tags">
-          &lt;bodyh&gt;
-          <br />
-          <span className="bottom-tag-html">&lt;bodyh&gt;</span> */}
-        {/* </span> */}
       </div>
     </div>
   )

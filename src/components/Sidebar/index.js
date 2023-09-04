@@ -35,7 +35,7 @@ const Sidebar = () => (
         </NavLink>
       </nav>
     </div>
-    <div className=" flex justify-center py-5 lg:py-15 mode icon">
+    <div className=" flex justify-center mode icon">
       <Switcher />
     </div>
     <div className="flex justify-center py-5 lg:py-10 social-icons">

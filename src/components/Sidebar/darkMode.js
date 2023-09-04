@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 
+// Prevents FOUC
 if (
   localStorage.theme === 'dark' ||
   (!('theme' in localStorage) &&
@@ -23,5 +24,3 @@ export default function useDarkMode() {
 
   return [colorTheme, setTheme]
 }
-
-// console.log(localStorage.theme)
