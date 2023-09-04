@@ -1,33 +1,12 @@
-// import { NavLink } from 'react-router-dom'
 import { Link } from 'react-scroll'
-// import { Link as LinkRouter } from 'react-router-dom'
 import './index.scss'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faHome, faFolder, faUser } from '@fortawesome/free-solid-svg-icons'
-// import { SocialIcon } from 'react-social-icons'
 import Switcher from './darkModeSwitcher'
 
 const NavBar = () => (
   <div className="h-[60px] w-full flex bg-black fixed z-10">
     <div className="items-center flex justify-center w-full text-2xl ">
-      {/* <LinkRouter onClick={()=> setClick(value: false)} to='/'>HOME</LinkRouter> */}
       <nav className="fixed z-10 px-7 flex justify-between items-center nav link container">
-        {/* <Link
-          // exact="true"
-          activeclassname="active"
-          to="home"
-          className="font-sm text-white"
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration={500}
-          href=""
-          color="white"
-        >
-          Austin Domer
-        </Link> */}
         <Link
-          // exact="true"
           activeclassname="active"
           to="home"
           className="font-sm text-white hover:text-chosen-green"
@@ -39,10 +18,8 @@ const NavBar = () => (
           color="white"
         >
           HOME{''}
-          {/* <FontAwesomeIcon icon={faHome} color="#4d4d4e" size="2x" /> */}
         </Link>
         <Link
-          // exact="true"
           activeclassname="active"
           className="font-sm text-white hover:text-chosen-green"
           to="about"
@@ -53,10 +30,8 @@ const NavBar = () => (
           href=""
         >
           ABOUT
-          {/* <FontAwesomeIcon icon={faUser} color="#4d4d4e" size="2x" /> */}
         </Link>
         <Link
-          // exact="true"
           activeclassname="active"
           className="font-sm text-white hover:text-chosen-green"
           to="projects"
@@ -67,9 +42,7 @@ const NavBar = () => (
           href=""
         >
           PROJECTS
-          {/* <FontAwesomeIcon icon={faFolder} color="#4d4d4e" size="2x" /> */}
         </Link>
-        {/* </nav> */}
         <div className="pt-6">
           <Switcher />
         </div>

@@ -2,8 +2,6 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import Photo from '../../assets/images/Avatar2-test.jpg'
-// import Photo2 from '../../assets/images/Kona2.png'
-// import Photo3 from '../../assets/images/Remi.jpg'
 import Photo4 from '../../assets/images/PugsTogether2.jpg'
 
 const calculateAge = () => {
@@ -89,16 +87,6 @@ const About = () => {
               src={Photo4}
               alt="two pugs"
             />
-            {/* <img
-              className="max-w-l sm:max-w-2xl rounded-full"
-              src={Photo2}
-              alt="fawn pug"
-            />
-            <img
-              className="max-w-l sm:max-w-2xl rounded-full"
-              src={Photo3}
-              alt="black pug"
-            /> */}
           </div>
         </div>
       </div>
