@@ -9,6 +9,10 @@ module.exports = {
         'chosen-gray': '#ac9898',
         'chosen-gray2': '#797575',
         'chosen-cream': '#f3eed9',
+        'chosen-green': '#a1b356',
+      },
+      minHeight: {
+        'screen-without-navBar': 'calc(100vh - 4.5rem)',
       },
     },
   },
