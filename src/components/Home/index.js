@@ -29,7 +29,7 @@ const Home = () => {
 
   return (
     <>
-      <div id="box container">
+      <div id="home" className="">
         <Particles
           className="bg-#ff8888"
           id="tsparticles"
@@ -37,9 +37,9 @@ const Home = () => {
           loaded={particlesLoaded}
           options={homeParticlesOptions}
         />
-        <div className="flex justify-center pl-[65px] lg:pl-[85px] box container home-page">
+        <div className="flex justify-center min-h-screen box container home-page">
           <div className="flex items-center justify-center w-full text-3xl mx-auto px-4 text-zone">
-            <div className="gap-10 flex flex-col justify-center w-full text-3xl mx-auto">
+            <div className="pl-[65px] lg:pl-[85px] gap-10 flex flex-col justify-center w-full text-3xl mx-auto">
               <h1>
                 <span className={letterClass}>H</span>
                 <span className={`${letterClass} _12`}>i,</span>

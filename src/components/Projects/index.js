@@ -2,7 +2,6 @@ import './index.scss'
 import '../tippy-tooltip/tippyTooltip.css'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
-import { Loader } from 'react-loaders'
 import TippyTooltip from '../tippy-tooltip/TippyTooltip'
 import Photo4 from '../../assets/images/website_headline.png'
 import Photo5 from '../../assets/images/Pyber2.png'
@@ -24,7 +23,10 @@ const Projects = () => {
 
   return (
     <>
-      <div className="box mx-auto pl-[68px] lg:pl-[88px] min-h-screen container projects-page">
+      <div
+        id="projects"
+        className="box mx-auto px-[10px] lg:pl-[20px] min-h-screen-without-navBar container projects-page"
+      >
         <div className="text-zone">
           <h1>
             <AnimatedLetters
@@ -101,7 +103,6 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <Loader type="pacman" />
     </>
   )
 }
