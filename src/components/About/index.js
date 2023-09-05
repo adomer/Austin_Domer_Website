@@ -77,8 +77,8 @@ const About = () => {
             </p>
             <br />
             <p>
-              Feel free to contact me through any of the platforms on the
-              sidebar. Thanks for stopping by!
+              Feel free to contact me through any of the platforms listed in the
+              Contact section. Thanks for stopping by!
             </p>
           </div>
           <div className="flex justify-center">
