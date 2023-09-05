@@ -40,7 +40,7 @@ const About = () => {
         <div className="box mx-auto container px-[10px] lg:pl-[20px] about-page">
           <div className="flex justify-center">
             <img
-              className="max-w-l sm:max-w-3xl lg:max-w-5xl rounded-full"
+              className="py-[5px] max-w-l sm:max-w-3xl lg:max-w-5xl rounded-full"
               src={Photo}
               alt=""
             />
@@ -83,7 +83,7 @@ const About = () => {
           </div>
           <div className="flex justify-center">
             <img
-              className="max-w-l sm:max-w-3xl lg:max-w-5xl rounded-full"
+              className="py-[5px] max-w-l sm:max-w-3xl lg:max-w-5xl rounded-full"
               src={Photo4}
               alt="two pugs"
             />

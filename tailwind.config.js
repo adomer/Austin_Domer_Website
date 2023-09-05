@@ -13,6 +13,7 @@ module.exports = {
       },
       minHeight: {
         'screen-without-navBar': 'calc(100vh - 4.5rem)',
+        'screen-with-contact': 'calc(100vh - 40rem)',
       },
     },
   },

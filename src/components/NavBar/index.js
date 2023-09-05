@@ -25,7 +25,7 @@ const NavBar = () => (
           to="about"
           spy={true}
           smooth={true}
-          offset={-65}
+          offset={-60}
           duration={500}
           href=""
         >
@@ -42,6 +42,18 @@ const NavBar = () => (
           href=""
         >
           PROJECTS
+        </Link>
+        <Link
+          activeclassname="active"
+          className="font-sm text-white hover:text-chosen-green"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-50}
+          duration={500}
+          href=""
+        >
+          CONTACT
         </Link>
         <div className="pt-6">
           <Switcher />
