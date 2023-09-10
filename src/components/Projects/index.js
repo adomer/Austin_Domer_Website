@@ -47,7 +47,7 @@ const Projects = () => {
             project_url="https://public.tableau.com/app/profile/austin.domer5220/viz/SF6MasterAnalysis/SF6_Analysis?publish=yes"
             github_url="https://github.com/adomer/sf6AnalysisData"
             projectDescription="Analysis of various data points across the Master rank
-            within StreetFighter 6. Python was used to scrape the data
+            within Street Fighter 6. Python was used to scrape the data
             from Capcom's website, and the visualization was done in
             Tableau."
             projectName="Street Fighter 6 Analysis"
