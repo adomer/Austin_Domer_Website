@@ -48,7 +48,7 @@ const Projects = () => {
             github_url="https://github.com/adomer/sf6AnalysisData"
             projectDescription="Analysis of various data points across the Master rank
             within StreetFighter 6. Python was used to scrape the data
-            from Capcom's website and the visualization was done in
+            from Capcom's website, and the visualization was done in
             Tableau."
             projectName="StreetFighter 6 Analysis"
           />
@@ -64,7 +64,7 @@ const Projects = () => {
             github_url="https://github.com/adomer/PyBer_Analysis/tree/main"
             projectDescription="A mock analysis of the different fares by the types of city
             for PyBer. Built in Jupyter using Pandas and Matplotlib for
-            the dataframe & visualization. Circle size correlates w/
+            the dataframe & visualization. Circle size correlates with
             driver count by city."
             projectName="PyBer Analysis"
           />
