@@ -50,7 +50,7 @@ const Projects = () => {
             within StreetFighter 6. Python was used to scrape the data
             from Capcom's website, and the visualization was done in
             Tableau."
-            projectName="StreetFighter 6 Analysis"
+            projectName="Street Fighter 6 Analysis"
           />
           <ProjectsTiles
             img={Photo4}
