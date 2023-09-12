@@ -37,8 +37,7 @@ const Projects = () => {
           </h1>
           <p>
             Hi, thanks for checking out my projects. My completed projects can
-            be found here. There's not much here currently, but I'll be adding
-            more projects in the coming weeks.
+            be found here.
           </p>
         </div>
         <div className="py-[15px] pl-[2px] pr-[5px] grid grid-cols-1 gap-12 lg:gap-10 lg:grid-cols-2 justify-items-center">
