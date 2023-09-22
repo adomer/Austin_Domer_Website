@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import Photo4 from '../../assets/images/website_headline_dark.png'
 import Photo5 from '../../assets/images/Pyber2.png'
 import Photo6 from '../../assets/images/SF6_Tableau.png'
+import Photo7 from '../../assets/images/London_Bike_Shares.png'
 import ProjectsTiles from '../Projects/projectsTile'
 
 const projectString = 'Projects'
@@ -41,6 +42,12 @@ const Projects = () => {
           </p>
         </div>
         <div className="py-[15px] pl-[2px] pr-[5px] grid grid-cols-1 gap-12 lg:gap-10 lg:grid-cols-2 justify-items-center">
+          <ProjectsTiles
+            img={Photo7}
+            project_url="https://public.tableau.com/app/profile/austin.domer5220/viz/LondonBikeShares_16953569144440/Dashboard1?publish=yes"
+            projectDescription="Visualization of the London Bike Sharing Dataset from Kaggle user hmavrodiev. The data was visualized using Tableau."
+            projectName="London Bike Sharing"
+          />
           <ProjectsTiles
             img={Photo6}
             project_url="https://public.tableau.com/app/profile/austin.domer5220/viz/SF6MasterAnalysis/SF6_Analysis?publish=yes"

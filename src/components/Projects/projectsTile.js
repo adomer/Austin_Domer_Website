@@ -49,26 +49,29 @@ const ProjectsTiles = ({
               </div>
             )}
             <div className="">
-              <Tippy
-                theme="austin"
-                animation="scale"
-                placement="right"
-                arrow={false}
-                delay={100}
-                content={<span>View the repo!</span>}
-              >
-                <a
-                  id="tooltip"
-                  href={github_url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="flex transition-all ease-in-out hover:shadow-card items-center bg-primary text-black px-2 mr-2 rounded-md duration-500 hover:bg-[#ffbbbb] dark:hover:bg-[#8d7d99] transform-gpu active:scale-105"
+              {/* // check if github_url not null */}
+              {github_url && (
+                <Tippy
+                  theme="austin"
+                  animation="scale"
+                  placement="right"
+                  arrow={false}
+                  delay={100}
+                  content={<span>View the repo!</span>}
                 >
-                  <button>
-                    <BsGithub className="h-10 w-10" />
-                  </button>
-                </a>
-              </Tippy>
+                  <a
+                    id="tooltip"
+                    href={github_url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex transition-all ease-in-out hover:shadow-card items-center bg-primary text-black px-2 mr-2 rounded-md duration-500 hover:bg-[#ffbbbb] dark:hover:bg-[#8d7d99] transform-gpu active:scale-105"
+                  >
+                    <button>
+                      <BsGithub className="h-10 w-10" />
+                    </button>
+                  </a>
+                </Tippy>
+              )}
             </div>
           </div>
           <div className="text-xl leading-relaxed px-3 pb-3">
