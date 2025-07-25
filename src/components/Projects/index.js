@@ -3,7 +3,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import Photo4 from '../../assets/images/website_headline_dark.png'
 import Photo5 from '../../assets/images/Pyber2.png'
-import Photo6 from '../../assets/images/SF6_Tableau.png'
+import Photo6 from '../../assets/images/SF6_Analysis_Screenshot.png'
 import Photo7 from '../../assets/images/London_Bike_Shares.png'
 import ProjectsTiles from '../Projects/projectsTile'
 
@@ -37,26 +37,26 @@ const Projects = () => {
             />
           </h1>
           <p>
-            Hi, thanks for checking out my projects. My completed projects can
-            be found here.
+            Some of my personal projects can
+            be found below.
           </p>
         </div>
         <div className="py-[15px] pl-[2px] pr-[5px] grid grid-cols-1 gap-12 lg:gap-10 lg:grid-cols-2 justify-items-center">
+          <ProjectsTiles
+            img={Photo6}
+            project_url="https://github.com/adomer/sf6AnalysisData/blob/main/SF6%20Analysis.pbix"
+            github_url="https://github.com/adomer/sf6AnalysisData"
+            projectDescription="Analysis of various data points across the Master ranks
+            within Street Fighter 6. Python was used to scrape the data
+            from Capcom's website, and the visualization was done in
+            Power BI."
+            projectName="Street Fighter 6 Analysis"
+          />
           <ProjectsTiles
             img={Photo7}
             project_url="https://public.tableau.com/app/profile/austin.domer5220/viz/LondonBikeShares_16953569144440/Dashboard1?publish=yes"
             projectDescription="Visualization of the London Bike Sharing Dataset from Kaggle user hmavrodiev. The data was visualized using Tableau."
             projectName="London Bike Sharing"
-          />
-          <ProjectsTiles
-            img={Photo6}
-            project_url="https://public.tableau.com/app/profile/austin.domer5220/viz/SF6MasterAnalysis/SF6_Analysis?publish=yes"
-            github_url="https://github.com/adomer/sf6AnalysisData"
-            projectDescription="Analysis of various data points across the Master rank
-            within Street Fighter 6. Python was used to scrape the data
-            from Capcom's website, and the visualization was done in
-            Tableau."
-            projectName="Street Fighter 6 Analysis"
           />
           <ProjectsTiles
             img={Photo4}

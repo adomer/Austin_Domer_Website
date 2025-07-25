@@ -53,26 +53,22 @@ const About = () => {
                 index={15}
               />
             </h1>
-            <p>Hi! My name is Austin Domer. I am {age} years old.</p>
+            <p>Hi! My name is Austin Domer.</p>
             <br />
             <p>
-              I'm a data analyst with an interest in software development. I'm
-              currently learning JavaScript and Python with the hopes of
-              applying them to future projects. My focus in JavaScript has
-              primarily consisted of vanilla JS and React, but I'm hoping to
-              learn more libraries in the future. My professional experience is
-              primarily within Excel, SQL, and Tableau.
+              I'm a senior data analyst with an interest in software development. My professional experience is
+              primarily within SQL, PowerBI, and Excel. I enjoy making other's lives easier by automating repeatable tasks 
+              with either Power Automate or Python. I've recently started familiarizing myself with DBT, and hope to continue
+              growing in my data modeling capabilities.
             </p>
             <br />
             <p>
               Beyond professional work, my current hobbies include playing with
               my two (very cool) pugs, pictured below, fitness, and gaming. I've
               been involved in some form of weight-lifting for over 10 years at
-              this point, with a focus on powerlifting in recent years. In terms
-              of gaming, I prefer any competitive style of game. Recently, I've
-              taken a large interest in fighting games, namely StreetFighter 6,
-              but I've historically been a big fan of shooters like Overwatch
-              and Valorant. I'm also a big fan of touge driving, but it's not
+              this point, with a focus on powerlifting in recent years. This year I 
+              set out to begin learning Japanese, with the goal of eventually passing
+              the N1 exam. I'm also a big fan of touge driving, but it's not
               something that I'm able to do often.{' '}
             </p>
             <br />

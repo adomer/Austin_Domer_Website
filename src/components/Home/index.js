@@ -53,7 +53,7 @@ const Home = () => {
                   index={15}
                 />
               </h1>
-              <h2 className="dark:text-[#D5CCDB]"> Data Analyst </h2>
+              <h2 className="dark:text-[#D5CCDB]"> Senior Data Analyst </h2>
             </div>
           </div>
         </div>

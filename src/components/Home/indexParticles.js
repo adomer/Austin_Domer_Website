@@ -15,7 +15,7 @@ const homeParticlesOptions = {
   interactivity: {
     events: {
       onClick: {
-        enable: true,
+        enable: false,
         mode: 'push',
       },
       onHover: {
@@ -26,7 +26,7 @@ const homeParticlesOptions = {
     },
     modes: {
       push: {
-        quantity: 6,
+        quantity: 2,
       },
       repulse: {
         distance: 100,

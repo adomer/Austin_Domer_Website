@@ -64,18 +64,6 @@ const Contact = () => {
         <a
           target="_blank"
           rel="noreferrer"
-          href="mailto:austin.domer81@gmail.com"
-        >
-          <SocialIcon
-            url="https://www.instagram.com/austin_domer/"
-            bgColor="#fff"
-            style={{ height: 'none', width: 'none' }}
-            className="w-[50px] h-[50px] md:w-[65px] md:h-[65px] lg:w-[80px] lg:h-[80px]"
-          />
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
           href="https://www.discordapp.com/users/166058942278008832"
         >
           <SocialIcon
