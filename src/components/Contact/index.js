@@ -33,7 +33,7 @@ const Contact = () => {
         </h1>
       </div>
       <div className="min-h-screen-with-contact flex flex-row items-center justify-center gap-8 md:gap-12 lg:gap-20">
-        <a
+        {/* <a
           target="_blank"
           rel="noreferrer"
           href="https://www.linkedin.com/in/austin-domer/"
@@ -44,7 +44,7 @@ const Contact = () => {
             style={{ height: 'none', width: 'none' }}
             className=" w-[50px] h-[50px] md:w-[65px] md:h-[65px] lg:w-[80px] lg:h-[80px]"
           />
-        </a>
+        </a> */}
         <a target="_blank" rel="noreferrer" href="https://github.com/adomer">
           <SocialIcon
             url="https://github.com/adomer"
@@ -61,7 +61,7 @@ const Contact = () => {
             className="w-[50px] h-[50px] md:w-[65px] md:h-[65px] lg:w-[80px] lg:h-[80px]"
           />
         </a>
-        <a
+        {/* <a
           target="_blank"
           rel="noreferrer"
           href="https://www.discordapp.com/users/166058942278008832"
@@ -72,7 +72,7 @@ const Contact = () => {
             style={{ height: 'none', width: 'none' }}
             className="w-[50px] h-[50px] md:w-[65px] md:h-[65px] lg:w-[80px] lg:h-[80px]"
           />
-        </a>
+        </a> */}
       </div>
     </div>
   )
