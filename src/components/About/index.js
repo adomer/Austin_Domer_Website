@@ -1,20 +1,14 @@
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
-import Photo from '../../assets/images/Avatar2-test.jpg'
+import Photo from '../../assets/images/Avatar.jpg'
 import Photo4 from '../../assets/images/PugsTogether2.jpg'
 
-const calculateAge = () => {
-  var t = new Date().valueOf() - new Date(1998, 0).valueOf()
-  t /= 1000 * 60 * 60 * 24 * 365
-  return `${Math.floor(t)}.${(t % 1).toFixed(8).substring(2)}`
-}
 
 const aboutString = 'About me'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const [age, setAge] = useState('')
 
   useEffect(() => {
     let timeoutID = setTimeout(() => {
@@ -24,14 +18,6 @@ const About = () => {
     return () => {
       clearTimeout(timeoutID)
     }
-  }, [])
-
-  useEffect(() => {
-    const ageInterval = setInterval(() => {
-      setAge(calculateAge())
-    }, 50)
-
-    return () => clearInterval(ageInterval)
   }, [])
 
   return (
